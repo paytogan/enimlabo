@@ -1,5 +1,6 @@
-# Database connection string
-DB_CONNECTION_STRING = "mysql://user:password@host:port/database"
-
-# API key for a third-party service
-API_KEY = "1234567890"
+# Accessing an entry
+gym_info = facilities.get('Gym')
+if gym_info:
+    print("Gym Info:", gym_info)
+else:
+    print("Gym not found")
